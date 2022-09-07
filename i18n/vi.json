@@ -1,0 +1,45 @@
+{
+  "header": {
+    "home":"Home",
+    "about_us":"About Us",
+    "services":"Services",
+    "contact_us":"Contact Us",
+    "project": "Dream Agency"
+  },
+  "heading": {
+    "title": "<span class='font-weight-bold'>We Help you</span> to grow your <span class='border-bottom'>Business</span>",
+    "content": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "started": "get started"
+  },
+  "intro": {
+    "title": "<span class='font-weight-bold'>What We Do</span> For Your<span class='border-bottom'>Business</span>",
+    "content_slice_title": "Website Design",
+    "content_slice_content": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+  },
+  "about": {
+    "title": "<span class='font-weight-bold'>About Us</span> Fake of <span class='border-bottom'>Real</span>",
+    "content": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "button": "Explore More"
+  },
+  "work": {
+    "title": "<span class='font-weight-bold'>Our Recent Work</span> By Our <span class='border-bottom'>Experts</span>",
+    "content": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "project_name1": "UI Soup",
+    "project_button1": "View Work",
+    "project_name2": "Goldcrown Labs",
+    "project_button2": "View Work",
+    "project_name3": "Close Concierge",
+    "project_button3": "View Work"
+  },
+  "testimonial": {
+    "title": "<p class='font-weight-bold'>Our Testimonials</p><p>What Our Clients Are<span class='border-bottom'>Saying</span></p>",
+    "comment": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
+    "project_name": "UI Soup"
+  },
+  "footer": {
+    "title": "Dream Agency",
+    "content": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
+    "contact": "Get In Touch",
+    "send": "SEND"
+  }
+}
