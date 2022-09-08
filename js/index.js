@@ -3,7 +3,7 @@ import Translator from "./translator.js";
 var translator = new Translator({
   persist: false,
   languages: ["en", "vi"],
-  defaultLanguage: "en",
+  defaultLanguage: "vi",
   detectLanguage: true,
   filesLocation: "/i18n",
 });
