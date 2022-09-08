@@ -167,9 +167,8 @@
 .intro .content {
   margin-top: 95px;
   display: flex;
-  width: 1260px;
   column-gap: 40px;
-  margin-left: 260px;
+  justify-content: center;
   position: relative;
 }
 .intro .content .control-slice {
@@ -252,7 +251,7 @@
 }
 .about-us .about-right .about-title {
   font-size: 48px;
-  width: 250px;
+  width: 450px;
   line-height: 106.3%;
 }
 .about-us .about-right .about-title .border-bottom {
@@ -343,7 +342,7 @@
   color: #331B3B;
 }
 .work .work-slice {
-  margin-top: 80px;
+  margin-top: 150px;
   display: flex;
   width: 1260px;
   column-gap: 40px;
@@ -355,7 +354,7 @@
   align-items: flex-end;
   position: absolute;
   left: -80px;
-  bottom: -50px;
+  bottom: -100px;
   column-gap: 15px;
 }
 .work .work-slice .control-slice .prev,
@@ -374,35 +373,23 @@
   font-size: 20px;
 }
 .work .work-slice .slice {
-  width: 420px;
-  height: 365px;
+  width: 270px;
+  height: 235px;
   background-color: white;
   box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.05);
   border-radius: 10px;
   padding: 24px 4px;
   flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
 }
 .work .work-slice .slice .slice-preview {
   display: flex;
   justify-content: space-around;
+  flex: 1;
 }
-.work .work-slice .slice .slice-preview .desktop-img {
-  border-radius: 10px;
-  overflow: hidden;
-  filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.25));
-  height: 238px;
-}
-.work .work-slice .slice .slice-preview .desktop-img img {
-  height: 100%;
-}
-.work .work-slice .slice .slice-preview .mobile-img {
-  border-radius: 10px;
-  overflow: hidden;
-  filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.25));
-  height: 238px;
-}
-.work .work-slice .slice .slice-preview .mobile-img img {
-  height: 100%;
+.work .work-slice .slice .slice-preview img {
+  margin-top: 20px;
 }
 .work .work-slice .slice .info-project {
   margin-top: 33px;
@@ -414,7 +401,8 @@
 .work .work-slice .slice .info-project .project-name {
   font-size: 24px;
   font-weight: 700;
-  margin-left: 30px;
+  width: 100%;
+  text-align: center;
 }
 .work .work-slice .slice .info-project .project-button {
   width: 92px;
@@ -450,11 +438,14 @@
   height: 310px;
   box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.08);
   padding: 30px;
+  display: flex;
+  flex-direction: column;
 }
 .testimonial .content .content-testimonial .comment {
   letter-spacing: 0.5px;
   margin-top: 30px;
   color: #331B3B;
+  flex: 1;
 }
 .testimonial .content .content-testimonial .name {
   margin-top: 17px;
@@ -525,6 +516,15 @@ footer .email label button {
   background-color: white;
   font-weight: 600;
   letter-spacing: 0.2px;
+}
+footer .phone {
+  margin-top: 25px;
+}
+footer .email-address {
+  margin-top: 20px;
+}
+footer .address {
+  margin-top: 20px;
 }
 footer .map {
   margin-top: 77px;

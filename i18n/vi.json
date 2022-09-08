@@ -7,39 +7,49 @@
     "project": "Dream Agency"
   },
   "heading": {
-    "title": "<span class='font-weight-bold'></span>Tư vấn và hỗ trợ doanh nghiệp<span class='border-bottom'>Toàn diện</span>",
+    "title": "Tư vấn và hỗ trợ doanh nghiệp<span class='border-bottom'> <span class='font-weight-bold'>Toàn diện</span></span>",
     "content": "Lắng nghe, phân tích vấn đề, tư vấn giải pháp phù hợp với từng trường hợp cụ thể, giúp doanh nghiệp phát triển tối đa với chi phí tối thiểu",
     "started": "Tìm hiểu thêm"
   },
   "intro": {
     "title": "<span class='font-weight-bold'>Giải pháp</span> hỗ trợ<span class='border-bottom'>Doanh nghiện</span>",
-    "content_slice_title": "Tư vẫn giải pháp",
-    "content_slice_content": "Tư vấn tổng thể, lập kế hoạch chi tiết theo từng giai đoạn, giúp tối ưu hoá chi phí và nguồn lực"
+    "content_slice_title1": "TƯ VẤN GIẢI PHÁP",
+    "content_slice_content1": "Tư vấn tổng thể, lập kế hoạch chi tiết theo từng giai đoạn, giúp tối ưu hoá chi phí và nguồn lực",
+    "content_slice_title2": "GIA CÔNG PHẦN MỀM",
+    "content_slice_content2": "Tư vấn, thiết kế, gia công phần mềm chuyên biệt với chi phí hợp lý, hỗ trợ cải tiến hiệu suất làm việc",
+    "content_slice_title3": "THIẾT KẾ ĐỒ HOẠ",
+    "content_slice_content3": "Thiết kế các sản phẩm bán hàng, marketing, tài liệu, ấn phẩm... ấn tượng theo nhận diện thương hiệu",
+    "content_slice_title4": "Marketing",
+    "content_slice_content4": "Dịch vụ thiết kế website, SEO, chạy quảng cáo fb, Google, youtube..., sáng tạo nội dung, email marketing..."
   },
   "about": {
-    "title": "<span class='font-weight-bold'>Về Janna</span>Lấy<span class='border-bottom'>chất lượng</span> làm thước đo",
-    "content": "Đội ngũ chuyên gia từ các lĩnh vực: tư vấn, lập trình, thiết kế, quản lý chất lượng, có kinh nghiệm làm việc với các đối tác trong nước và ngoài nước như: Mỹ, Peru, Hàn Quốc, Tây Ban Nha...",
+    "title": "<span class='font-weight-bold'>Về Janna </span><br/> Lấy<span class='border-bottom'>chất lượng</span> làm thước đo",
+    "content1": "Đội ngũ chuyên gia từ các lĩnh vực: tư vấn, lập trình, thiết kế, quản lý chất lượng, có kinh nghiệm làm việc với các đối tác trong nước và ngoài nước như: Mỹ, Peru, Hàn Quốc, Tây Ban Nha...",
+    "content2": "Đưa ra quy trình rõ ràng, kế hoạch làm việc cụ thể, cam kết kết quả và chất lượng đạt được, đảm bảo yêu cầu đặt ra",
     "button": "Chi tiết"
   },
   "work": {
-    "title": "<span class='font-weight-bold'>Our Recent Work</span> By Our <span class='border-bottom'>Experts</span>",
-    "content": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    "project_name1": "UI Soup",
-    "project_button1": "View Work",
-    "project_name2": "Goldcrown Labs",
-    "project_button2": "View Work",
-    "project_name3": "Close Concierge",
-    "project_button3": "View Work"
+    "title": "<span class='font-weight-bold'>Khách hàng</span> của <span class='border-bottom'>Janna</span>",
+    "content": "+ 100 doanh nghiệp trong và ngoài nước đã tin tưởng và sử dụng các dịch vụ: gia công phần mềm, tư vấn, thiết kế, marketing... của Janna",
+    "client1": "N-Tek Distribution",
+    "client2": "Magicphoto-Hàn Quốc",
+    "client3": "Za Nguyen",
+    "client4": "Zara Global",
+    "client5": "Ahri"
   },
   "testimonial": {
-    "title": "<p class='font-weight-bold'>Our Testimonials</p><p>What Our Clients Are<span class='border-bottom'>Saying</span></p>",
-    "comment": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
-    "project_name": "UI Soup"
+    "title": "<p class='font-weight-bold'>Phản hồi của khách hàng</p><p>Về dịch vụ Janna<span class='border-bottom'>cung cấp</span></p>",
+    "comment1": "Tư vấn tận tình, chi phí hợp lý, hỗ trợ Magic Photo chiến lược và kế hoạch phát triển tại Việt Nam giai đoạn đầu hiệu quả, tăng nhận diện thương hiệu",
+    "project_name1": "Kim Min-Hyuk - Quản lý Magic Photo Hàn Quốc",
+    "comment2": "Phần mềm được gia công bởi Janna đáp ứng yêu cầu đặt ra về tính năng, giao diện thân thiện, load trang nhanh và dễ dàng sử dụng cả trên máy tính, điện thoại",
+    "project_name2": "Trần Vinh - Giám đốc Điều hành CT Thuận Phong"
   },
   "footer": {
-    "title": "Dream Agency",
     "content": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
-    "contact": "Get In Touch",
-    "send": "SEND"
+    "contact": "NhẬN TƯ VẤN CHI TIẾT",
+    "send": "GỬI",
+    "phone": "Điện thoại: (+84) 034 66 79 339 - (+84) 091 73 99 379",
+    "email_address": "Email: hoptac.janna@gmail.com",
+    "address": "Địa chỉ: Tân Phong, Thuỵ Phương, Bắc Từ Liêm, Hà Nội"
   }
 }

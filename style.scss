@@ -170,9 +170,8 @@ $color-main: #331B3B;
   .content{
     margin-top: 95px;
     display: flex;
-    width: 1260px;
     column-gap: 40px;
-    margin-left: 260px;
+    justify-content: center;
     position: relative;
     .control-slice{
       display: flex;
@@ -259,7 +258,7 @@ $color-main: #331B3B;
     margin-top: 100px;
     .about-title{
       font-size: 48px;
-      width: 250px;
+      width: 450px;
       line-height: 106.3%;
       .border-bottom{
         position: relative;
@@ -351,7 +350,7 @@ $color-main: #331B3B;
     }
   }
   .work-slice{
-    margin-top: 80px;
+    margin-top: 150px;
     display: flex;
     width: 1260px;
     column-gap: 40px;
@@ -363,7 +362,7 @@ $color-main: #331B3B;
       align-items: flex-end;
       position: absolute;
       left: -80px;
-      bottom: -50px;
+      bottom: -100px;
       column-gap: 15px;
   
       .prev,
@@ -384,33 +383,21 @@ $color-main: #331B3B;
     }
   
     .slice {
-      width: 420px;
-      height: 365px;
+      width: 270px;
+      height: 235px;
       background-color: white;
       box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.05);
       border-radius: 10px;
       padding: 24px 4px;
       flex-shrink: 0;
+      display: flex;
+      flex-direction: column;
       .slice-preview{
         display: flex;
         justify-content: space-around;
-        .desktop-img{
-          border-radius: 10px;
-          overflow: hidden;
-          filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.25));
-          height: 238px;
-          img{
-            height: 100%;
-          }
-        }
-        .mobile-img{
-          border-radius: 10px;
-          overflow: hidden;
-          filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.25));
-          height: 238px;
-          img{
-            height: 100%;
-          }
+        flex: 1;
+        img{
+          margin-top: 20px;
         }
       }
       .info-project{
@@ -422,7 +409,8 @@ $color-main: #331B3B;
         .project-name{
           font-size: 24px;
           font-weight: 700;
-          margin-left: 30px;
+          width: 100%;
+          text-align: center;
         }
         .project-button{
           width: 92px;
@@ -460,10 +448,13 @@ $color-main: #331B3B;
       height: 310px;
       box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.08);
       padding: 30px;
+      display: flex;
+      flex-direction: column;
       .comment{
         letter-spacing: 0.5px;
         margin-top: 30px;
         color: $color-main;
+        flex: 1;
       }
       .name{
         margin-top: 17px;
@@ -536,6 +527,15 @@ footer{
         letter-spacing: 0.2px;
       }
     }
+  }
+  .phone{
+    margin-top: 25px;
+  }
+  .email-address{
+    margin-top: 20px;
+  }
+  .address{
+    margin-top: 20px;
   }
   .map{
     iframe{
