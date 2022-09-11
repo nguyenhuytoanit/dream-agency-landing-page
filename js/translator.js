@@ -10,6 +10,12 @@ class Translator {
       return this._options.defaultLanguage;
     }
 
+    var stored = sessionStorage.getItem("language");
+
+    if (this._options.persist && stored) {
+      return stored;
+    }
+
     var lang = navigator.languages ? navigator.languages[0] : navigator.language;
 
     return lang.substring(0, 2);
@@ -33,6 +39,10 @@ class Translator {
       .then((translation) => {
         this.translate(translation);
         this.toggleLangTag();
+
+        if (this._options.persist) {
+          sessionStorage.setItem("language", this._lang);
+        }
       })
       .catch((err) => {
         console.error(`Could not load ${path}`, err);

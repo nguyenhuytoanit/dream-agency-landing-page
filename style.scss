@@ -58,9 +58,10 @@ $color-main: #331B3B;
     align-items: center;
   }
   .language {
+    position: relative;
     .dropdown-toggle {
-      width: 40px;
-      height: 40px;
+      width: 30px;
+      height: 30px;
       cursor: pointer;
       border-radius: 4px;
       img {
@@ -68,6 +69,42 @@ $color-main: #331B3B;
         height: 100%;
         object-fit: none;
         border-radius: 4px;
+      }
+    }
+    .dropdown-menu{
+      display: none;
+      position: absolute;
+      left: -50%;
+      top: 100%;
+      width: 150px;
+      background-color: white;
+      border-radius: 5px;
+      overflow: hidden;
+      padding: 7px;
+      margin-top: 10px;
+      z-index: 1000;
+      .dropdown-item{
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        padding: 7px;
+        border-radius: 5px;
+        img{
+          width: 30px;
+          height: 28px;
+          object-fit: none;
+          border-radius: 4px;
+        }
+        span{
+          margin-left: 10px;
+          font-weight: 500;
+        }
+        &:hover{
+          background-color: #f3f3f3;
+        }
+      }
+      &.active{
+        display: block;
       }
     }
   }
