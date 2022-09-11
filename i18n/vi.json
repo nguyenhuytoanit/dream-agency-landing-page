@@ -38,7 +38,7 @@
     "client5": "Ahri"
   },
   "testimonial": {
-    "title": "<p class='font-weight-bold'>Phản hồi của khách hàng</p><p>Về dịch vụ Janna<span class='border-bottom'>cung cấp</span></p>",
+    "title": "<p class='font-weight-bold'>Phản hồi của khách hàng</p><p>Về dịch vụ Janna <span class='border-bottom'>cung cấp</span></p>",
     "comment1": "Tư vấn tận tình, chi phí hợp lý, hỗ trợ Magic Photo chiến lược và kế hoạch phát triển tại Việt Nam giai đoạn đầu hiệu quả, tăng nhận diện thương hiệu",
     "project_name1": "Kim Min-Hyuk - Quản lý Magic Photo Hàn Quốc",
     "comment2": "Phần mềm được gia công bởi Janna đáp ứng yêu cầu đặt ra về tính năng, giao diện thân thiện, load trang nhanh và dễ dàng sử dụng cả trên máy tính, điện thoại",
@@ -50,6 +50,7 @@
     "send": "GỬI",
     "phone": "Điện thoại: (+84) 034 66 79 339 - (+84) 091 73 99 379",
     "email_address": "Email: hoptac.janna@gmail.com",
-    "address": "Địa chỉ: Tân Phong, Thuỵ Phương, Bắc Từ Liêm, Hà Nội"
+    "address": "Địa chỉ: Tân Phong, Thuỵ Phương, Bắc Từ Liêm, Hà Nội",
+    "enter_your_email": "Nhập địa chỉ email của bạn"
   }
 }

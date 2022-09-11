@@ -52,6 +52,9 @@ class Translator {
       if (text) {
         element.innerHTML = text;
       }
+      if (element.tagName === "INPUT") {
+        element.placeholder = text;
+      }
     }
 
     this._elements.forEach(replace);
