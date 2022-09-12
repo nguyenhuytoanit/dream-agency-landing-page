@@ -298,19 +298,22 @@ $color-main: #331B3B;
   }
 }
 .about-us{
-  margin-top: 160px;
+  margin-top: 100px;
   display: flex;
   .about-left{
     position: relative;
-    flex: 1;
+    flex: 2;
+    height: 660px;
     img{
       position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
   }
   .about-right{
     flex: 1;
-    margin-left: 200px;
-    margin-top: 100px;
+    margin-top: 180px;
     .about-title{
       font-size: 48px;
       width: 450px;
@@ -359,7 +362,7 @@ $color-main: #331B3B;
 }
 
 .work{
-  margin-top: 200px;
+  margin-top: 160px;
   height: 670px;
   position: relative;
   overflow: hidden;
